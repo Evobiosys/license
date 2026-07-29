@@ -1,17 +1,17 @@
-# EvoBiosys License
+# EvoBiosys Licensing
 
-A two-part copyleft-with-commercial-tier license:
-
-1. **Base:** [Adapted Modular Public License 1.0 (AMPL 1.0)](https://github.com/Evobiosys/AMPL) — MPL 2.0 + parallel network-use clause
+We use as our **Base** the [Adapted Modular Public License 1.0 (AMPL 1.0)](https://github.com/Evobiosys/AMPL)
+   MPL 2.0 + parallel network-use clause
    exactly the text that Affero has added to General Public License, adding the A in AGPL. Lives in its own repo so other projects can reuse it.
-3. **Addendum:** [`EVOBIOSYS-LICENSE.md`](EVOBIOSYS-LICENSE.md) (this repo) — adds a revenue-threshold tier on top of AMPL: organizations whose combined annual revenue meets or exceeds a significant threshold either comply fully with AMPL or obtain a commercial license from the Steward.
+
+With the **Addendum** of this repo of adding a revenue-threshold tier on top of AMPL: organizations whose combined annual revenue or budget meets or exceeds a significant threshold either comply fully with AMPL or obtain a commercial license from the Steward.
    This threshold is currently set to 1 million Euros.
 
 ## Lineage
 
 ```
    GPL  ─────────►  AGPL                ← the Affero step beyond GPL
-                     ┊                     (network-use copyleft)
+                     ┊                     (SaaS/network-use copyleft)
                      ┊ inspiration
                      ▼
    MPL 2.0 ───────►  AMPL 1.0           ← same step, applied to MPL
