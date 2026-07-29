@@ -17,30 +17,34 @@ two is defined in Section 2.
 
 ## 1. Who This Applies To
 
-This addendum defines a **Revenue Threshold**. If your organization's
-combined annual revenue — including all affiliates, subsidiaries, and parent
-entities — is **below the Revenue Threshold**, you may continue to use
-this software under AMPL 1.0 alone; you do **not** need a commercial
-license.
+This addendum defines a **Resources Threshold**. If your organization's
+combined annual budget, revenue, or resources — including all affiliates,
+subsidiaries, and parent entities — is **below the Resources Threshold**,
+you may continue to use this software under AMPL 1.0 alone; you do **not**
+need a commercial license and no further step applies.
 
-If your combined annual revenue is **at or above the Revenue Threshold**,
-you must either:
+If your combined annual budget, revenue, or resources are **at or above the
+Resources Threshold**, you must contact EvoBiosys sales at
+[connect@evobiosys.org](mailto:connect@evobiosys.org) **before commercial
+use**, and either:
 
   (a) comply fully with AMPL 1.0 — including sharing source for all
       modifications and any parallel-network extensions — or
 
   (b) obtain a commercial license from the Steward.
 
+No other restriction applies beyond this threshold.
+
 This structure is intentionally low-friction: small users, students,
 researchers, and non-profits have no paperwork. The threshold kicks in only
 when the software is part of a substantial commercial operation.
 
-## 2. Revenue Threshold
+## 2. Resources Threshold
 
-The Revenue Threshold is denominated in euros (EUR) and is indexed to
+The Resources Threshold is denominated in euros (EUR) and is indexed to
 consumer price inflation.
 
-- **Starting Value:** **EUR 10,000** per calendar year, as of
+- **Starting Value:** **EUR 1,000,000** per calendar year, as of
   **2026-01-01**. This is the default threshold that applies unless a
   different value has been agreed with the Steward.
 - **Case-by-Case Adjustment:** The Starting Value is the default, not a
@@ -52,7 +56,7 @@ consumer price inflation.
   (Evobiosys); see the project website for current contact details.
 - **Base Index:** Statistik Austria Verbraucherpreisindex (Vienna CPI),
   January 2026 reading.
-- **Adjustment Cadence:** The Steward publishes a revised Revenue Threshold
+- **Adjustment Cadence:** The Steward publishes a revised Resources Threshold
   on the project website at least every 3 years and no more than every 5
   years, re-scaled so the Starting Value's real-terms purchasing power
   remains unchanged relative to the Base Index. Case-by-case thresholds
@@ -65,15 +69,17 @@ consumer price inflation.
   Consumer Prices (HICP) applies automatically.
 
 The current Starting Value is the one most recently published. If none
-has been published, EUR 10,000 (2026 base) applies.
+has been published, EUR 1,000,000 (2026 base) applies.
 
-## 3. "Combined Annual Revenue"
+## 3. "Combined Annual Budget, Revenue, or Resources"
 
-"Combined annual revenue" means the sum of revenue reported or reasonably
-estimated for your organization and every affiliate, subsidiary, and parent
-entity, on a consolidated basis, for the most recently completed fiscal
-year. Affiliate relationships are determined by more than 50% ownership,
-voting control, or contractual control.
+"Combined annual budget, revenue, or resources" means the highest of the
+annual budget, the annual revenue, or the readily available resources
+(funds and fund-equivalents) reported or reasonably estimated for your
+organization and every affiliate, subsidiary, and parent entity, on a
+consolidated basis, for the most recently completed fiscal year. Affiliate
+relationships are determined by more than 50% ownership, voting control,
+or contractual control.
 
 This affiliate-inclusive wording is adapted from the CockroachDB Community
 License, with the threshold reduced and denominated in EUR.
@@ -81,7 +87,8 @@ License, with the threshold reduced and denominated in EUR.
 ## 4. Commercial License Terms
 
 Commercial licenses are offered by the Steward on non-discriminatory terms.
-**Entry price: TBD — case-by-case. Please get in touch.** Pricing, term
+**Entry price: TBD — case-by-case. Please get in touch at
+[connect@evobiosys.org](mailto:connect@evobiosys.org).** Pricing, term
 length, and audit provisions are negotiated directly with the Steward. A
 commercial license replaces AMPL 1.0's obligations to share source for
 modifications and any parallel-network extensions; it does not grant

@@ -1,11 +1,36 @@
-# EvoBiosys Licensing
+# EvoBiosys use of the AMPL license
 
-We use as our **Base** the [Adapted Modular Public License 1.0 (AMPL 1.0)](https://github.com/Evobiosys/AMPL)
-   MPL 2.0 + parallel network-use clause
-   exactly the text that Affero has added to General Public License, adding the A in AGPL. Lives in its own repo so other projects can reuse it.
+How EvoBiosys licenses its published software, using the
+[Adapted Modular Public License 1.0 (AMPL 1.0)](https://github.com/evobiosys/AMPL)
+as the base.
 
-With the **Addendum** of this repo of adding a revenue-threshold tier on top of AMPL: organizations whose combined annual revenue or budget meets or exceeds a significant threshold either comply fully with AMPL or obtain a commercial license from the Steward.
-   This threshold is currently set to 1 million Euros.
+**This repo is the authoritative source** for the EvoBiosys licensing terms.
+The website page at [evobiosys.org/license](https://evobiosys.org/license/)
+rehosts the text and syncs from here.
+
+## The scheme, in three lines
+
+1. **Base:** [AMPL 1.0](https://github.com/evobiosys/AMPL) — MPL 2.0 plus a
+   parallel network-use clause (the same step Affero added to the GPL,
+   applied to the MPL). Weak, file-level copyleft that stays SaaS-honest
+   without being big-SaaS-friendly.
+2. **Dual licensing:** EvoBiosys projects are offered under
+   **AGPL-3.0-or-later OR EvoBiosys AMPL 1.0, at your option**. The AGPL
+   option is present and unambiguous from day one so the projects remain
+   eligible for FOSS channels (e.g. F-Droid).
+3. **Terms of Use (the only added expectation):** any well-funded
+   organization with budget, revenue, or resources exceeding **EUR 1
+   million** must contact EvoBiosys sales at
+   **[connect@evobiosys.org](mailto:connect@evobiosys.org)** before
+   commercial use. No other restriction applies beyond this threshold. See
+   [`EVOBIOSYS-LICENSE.md`](EVOBIOSYS-LICENSE.md) for the full addendum text.
+
+## Standard source-file header
+
+```
+Dual-licensed under AGPL-3.0-or-later (gnu.org/licenses/agpl-3.0) OR EvoBiosys AMPL 1.0,
+EvoBiosys's non-big-SaaS-friendly modification of the MPL (github.com/evobiosys/license)
+```
 
 ## Lineage
 
@@ -15,42 +40,25 @@ With the **Addendum** of this repo of adding a revenue-threshold tier on top of 
                      ┊ inspiration
                      ▼
    MPL 2.0 ───────►  AMPL 1.0           ← same step, applied to MPL
-                      │                    (Evobiosys/AMPL)
-                      │ + revenue-threshold
-                      │   commercial-license tier
+                      │                    (evobiosys/AMPL)
+                      │ + EUR 1M contact-sales tier
                       ▼
-              EvoBiosys License         ← this repo
+   EvoBiosys use of the AMPL license    ← this repo
 ```
+
+## Adopting it for your project
+
+Copy into your project:
+
+- [`LICENSE` from evobiosys/AMPL](https://github.com/evobiosys/AMPL/blob/main/LICENSE)
+  — the base AMPL 1.0 text.
+- [`EVOBIOSYS-LICENSE.md`](EVOBIOSYS-LICENSE.md) — the addendum from this repo.
+- The full AGPL-3.0-or-later text, if you dual-license the EvoBiosys way.
+
+Attach the standard header above to source files, reference both licenses in
+your README, and add your project to [`USERS.md`](USERS.md) via PR.
 
 ## Status
 
-The base AMPL 1.0 text is stable. The EvoBiosys License Addendum is currently
-marked `1.0-draft`; consult legal counsel before relying on it in production.
-
-## Adopting the EvoBiosys License
-
-Copy **both** files into your project:
-
-- [`LICENSE` from Evobiosys/AMPL](https://github.com/Evobiosys/AMPL/blob/main/LICENSE) — the base AMPL 1.0 text.
-- [`EVOBIOSYS-LICENSE.md`](EVOBIOSYS-LICENSE.md) — the addendum from this repo.
-
-Reference both from your project README so users know they need to comply
-with both. Attach AMPL's Exhibit A notice to source files (see the bottom of
-the AMPL `LICENSE`).
-
-## Steward
-
-Evobiosys (organization). Commercial-license inquiries: see project website.
-
-## Canonical URLs
-
-- This repository: <https://github.com/Evobiosys/license>
-- Base license: <https://github.com/Evobiosys/AMPL>
-- Web canonical (addendum, when published): <https://evobiosys.org/legal/evobiosys-license>
-
-## Official users
-
-See [`USERS.md`](USERS.md). All EvoBiosys License users are *also* AMPL
-users, since the EvoBiosys License sits on top of AMPL — see
-[Evobiosys/AMPL → USERS.md](https://github.com/Evobiosys/AMPL/blob/main/USERS.md)
-for the full picture.
+The base AMPL 1.0 text is stable. The EvoBiosys addendum is marked
+`1.0-draft`; consult legal counsel before relying on it in production.

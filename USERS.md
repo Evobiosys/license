@@ -1,11 +1,15 @@
 # EvoBiosys License Official Users
 
-Backlinks to projects that adopt the EvoBiosys License (AMPL 1.0 + the
-EvoBiosys revenue-threshold addendum).
+Backlinks to projects that adopt the EvoBiosys use of the AMPL license
+(AMPL 1.0 + the EvoBiosys resources-threshold addendum, dual-licensed with
+AGPL-3.0-or-later).
 
 ## Direct users
 
 - [evobiosys.org](https://github.com/Evobiosys/evobiosys.org)
+- [unfold-news](https://github.com/evobiosys/unfold-news) — news bias & blindspot sensemaking
+- [unfold-proposals](https://github.com/evobiosys/unfold-proposals) — semantic due diligence for funding proposals
+- [semantic-web](https://github.com/evobiosys/semantic-web) — conflict-preserving merged knowledge graph
 
 ---
 
