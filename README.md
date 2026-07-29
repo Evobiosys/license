@@ -60,5 +60,4 @@ your README, and add your project to [`USERS.md`](USERS.md) via PR.
 
 ## Status
 
-The base AMPL 1.0 text is stable. The EvoBiosys addendum is marked
-`1.0-draft`; consult legal counsel before relying on it in production.
+The base AMPL 1.0 text is stable. The EvoBiosys addendum is version 1.0.

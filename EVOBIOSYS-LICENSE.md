@@ -1,6 +1,6 @@
 # EvoBiosys License (Addendum to AMPL 1.0)
 
-**Version:** 1.0-draft
+**Version:** 1.0
 **Steward:** Evobiosys
 **Base License:** Adapted Modular Public License 1.0 (AMPL 1.0) — see `LICENSE`.
 
@@ -109,5 +109,4 @@ extension — continue to apply unchanged.
 
 ---
 
-*This is a draft addendum. Consult legal counsel before relying on it in
-production. Feedback welcome via project issues.*
+*Feedback welcome via project issues.*
